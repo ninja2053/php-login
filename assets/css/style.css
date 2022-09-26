@@ -1,0 +1,69 @@
+/* General */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+input[type="text"], input[type="password"]{
+  outline: none;
+  padding: 20px;
+  display: block;
+  width: 300px;
+  border-radius: 3px;
+  border: 1px solid #eee;
+  margin: 20px auto;
+}
+
+input[type="submit"] {
+  padding: 10px;
+  color: #fff;
+  background: #0098cb;
+  width: 320px;
+  margin: 20px auto;
+  margin-top: 0;
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #00b8eb;
+}
+
+/* Header */
+header {
+  border-bottom: 2px solid #eee;
+  padding: 20px 0;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+header a {
+  text-decoration: none;
+  color: #333;
+}
+
+
+.button {
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 8px;
+  text-decoration: none;
+  -webkit-border-radius: 23px;
+  -moz-border-radius: 23px;
+  border-radius: 23px;
+  -webkit-box-shadow: 3px 3px 8px #b8aab8;
+  -moz-box-shadow: 3px 3px 8px #b8aab8;
+  box-shadow: 3px 3px 8px #b8aab8;
+  text-shadow: 0px 2px 4px #b37cb3;
+  border: dotted #ff0073 1px;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#adc2ad), to(#fc0574));
+  background: -moz-linear-gradient(top, #adc2ad, #fc0574);
+  }
+  
+  .button:hover {
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#fc0574), to(#adc2ad));
+  background: -moz-linear-gradient(top, #fc0574, #adc2ad)
+  }
